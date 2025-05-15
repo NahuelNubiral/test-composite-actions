@@ -1,6 +1,6 @@
-on: 
-  - [push]
-  - workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
 
 jobs:
   hello_world_job:
